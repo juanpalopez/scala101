@@ -1,0 +1,909 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c73f0c2c-a555-4c2b-8bef-2d99c2387478" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scala_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala-2.12/fixedPoint.sc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala-2.12/rationals.sc" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/com.aptana.core.io/connections.76" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/com.aptana.syncing.core/defaultConnection.76" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/com.aptana.syncing.core/sites.76" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/com.aptana.webserver.core/webservers.75" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/11/d0f452692e3900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/13/20488bd7163900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/16/707ac210293900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/18/a028e1ff163c00131fc5fec267407a28" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/19/502a13ceec3b00131fc5fec267407a28" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/1a/6033ac79fd3b00131fc5fec267407a28" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/1b/70ce75be2d3900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/1c/50c85267fd3b00131fc5fec267407a28" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/1d/50ed2117163900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/21/1085a80dee3b00131fc5fec267407a28" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/24/f06fd5b4153900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/2b/30b9485e2e3900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/2b/e09164f6163c00131fc5fec267407a28" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/2d/f03d1b350e3900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/2f/60c4f8ef333900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/3/a0784bd02f3900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/35/30439e462f3900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/35/30b2c431093900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/36/b0009ef0153900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/36/f0aa644cfc3b00131fc5fec267407a28" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/37/507d9aacfc3b00131fc5fec267407a28" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/38/4051cc77073900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/39/10a2f883303900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/39/d02dfc6f0e3900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/3a/00ff43e22f3900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/3b/d0ac2b64ff3b00131fc5fec267407a28" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/40/b0d325f8123900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/42/a083d92cec3b00131fc5fec267407a28" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/44/e0f802e3063c00131fc5fec267407a28" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/45/90c65249083900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/46/b00cf1a8303900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/48/a0e58b930c3c00131fc5fec267407a28" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/49/a0e4cb7e083900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/4c/7090fe9b2d3900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/4d/4042fdf0163900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/5/c0a3b707073c00131fc5fec267407a28" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/52/b08effce033c00131fc5fec267407a28" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/54/209505180c3c00131fc5fec267407a28" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/57/c0c855bdfc3b00131fc5fec267407a28" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/59/f026b243073900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/5a/208b6d96f33b00131fc5fec267407a28" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/5b/4022bba1fc3b00131fc5fec267407a28" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/5b/703f9ff62d3900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/5b/a0743dd0fd3b00131fc5fec267407a28" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/5b/e0f20eb5fc3b00131fc5fec267407a28" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/5e/50d6c0c4173900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/5e/60a25fef173900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/6/70e39355273900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/61/b05a6321163900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/66/d0751706293900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/67/b0f2459a273900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/69/c0367a5a073900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/6a/e008f2cefd3b00131fc5fec267407a28" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/7/e0846718043c00131fc5fec267407a28" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/73/409d491f283900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/76/50ea6d36fb3b00131fc5fec267407a28" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/77/0073a3170e3900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/7b/00043979303900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/7b/f0d41f56153900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/7c/304842b82d3900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/7d/20feee9aff3b00131fc5fec267407a28" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/7f/80032db42c3900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/8/809e2511283900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/83/50683d88fc3b00131fc5fec267407a28" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/83/6031f7470c3900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/88/903cc17a2e3900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/8b/90cadeb8123900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/8c/806d7c31283900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/8d/002cc9ad0c3900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/95/90ca8124fc3b00131fc5fec267407a28" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/97/306d8ae62d3900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/97/6066d0d5033c00131fc5fec267407a28" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/99/10e3ebbbfd3b00131fc5fec267407a28" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/9c/70f2cbfc2e3900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/9d/40858ef92f3900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/9d/709c981d293900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/a0/7027abbb063900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/a4/c0536915093900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/a6/106d87c8fd3b00131fc5fec267407a28" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/ab/9028ea82ff3b00131fc5fec267407a28" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/ac/509fbdd30b3900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/ad/70509da7183900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/af/b0d533be283900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/b/c05b1d11153900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/b2/10104fbf303900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/b2/4001da732f3900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/b3/90feaad4163c00131fc5fec267407a28" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/b6/006a9f862e3900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/ba/90476bd02d3900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/ba/e0d004ec123900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/bd/10cdfead2f3900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/bf/101cd266fc3b00131fc5fec267407a28" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/c/3018088f0c3900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/c3/105d8c602d3900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/c3/303f5dfeff3b00131fc5fec267407a28" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/c4/3000934a333900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/c5/70a65c04293900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/c9/40a07e5bed3b00131fc5fec267407a28" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/ca/b0317890063900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/cb/b05dfddc173900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/cf/2058c572fc3b00131fc5fec267407a28" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/d1/a033e94b2e3900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/d4/109eae46073900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/d5/10d02d14153900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/d9/50e21a852d3900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/d9/e0baf2d0fd3b00131fc5fec267407a28" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/dd/107b26620c3c00131fc5fec267407a28" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/df/60cfa701183900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/e0/b0b5d70e0e3900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/e3/903c42760c3900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/e7/602e36f32e3900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/e8/90ce9abb183900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/e9/406f9730293900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/f3/805c4dabff3b00131fc5fec267407a28" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/f6/801a1d752d3900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/f9/0024065e043900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.history/fc/7070110d153900131feeecc2c747f1d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.projects/Tester4/.markers.snap" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.projects/Tester4/.syncinfo.snap" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.projects/tripeo/.indexes/21/6e/77/history.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.projects/tripeo/.indexes/21/6e/c4/history.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.projects/tripeo/.indexes/21/6e/ed/history.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.projects/tripeo/.indexes/21/6e/ee/history.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.projects/tripeo/.indexes/21/96/history.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.projects/tripeo/.indexes/21/a9/history.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.projects/tripeo/.indexes/7e/ab/history.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.projects/tripeo/.indexes/be/history.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.projects/tripeo/.indexes/history.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.projects/tripeo/.indexes/properties.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.projects/tripeo/.markers.snap" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.projects/tripeo/.syncinfo.snap" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.root/9.tree" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.safetable/com.aptana.core.io.76" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.safetable/com.aptana.syncing.core.76" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.safetable/com.aptana.webserver.core.75" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.snap" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../Tester4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/.project" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/Gemfile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/Gemfile.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/README.rdoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/Rakefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/app/assets/images/.keep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/app/assets/javascripts/activities.js.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/app/assets/javascripts/application.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/app/assets/javascripts/bootstrap.js.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/app/assets/javascripts/pages.js.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/app/assets/javascripts/trips.js.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/app/assets/stylesheets/activities.css.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/app/assets/stylesheets/application.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/app/assets/stylesheets/bootstrap_and_overrides.css.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/app/assets/stylesheets/pages.css.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/app/assets/stylesheets/scaffolds.css.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/app/assets/stylesheets/trips.css.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/app/controllers/activities_controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/app/controllers/application_controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/app/controllers/concerns/.keep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/app/controllers/pages_controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/app/controllers/trips_controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/app/helpers/activities_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/app/helpers/application_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/app/helpers/pages_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/app/helpers/trips_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/app/mailers/.keep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/app/models/.keep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/app/models/activity.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/app/models/concerns/.keep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/app/models/trip.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/app/views/activities/_form.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/app/views/activities/index.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/app/views/activities/new.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/app/views/layouts/application.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/app/views/pages/index.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/app/views/trips/_form.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/app/views/trips/edit.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/app/views/trips/index.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/app/views/trips/index.json.jbuilder" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/app/views/trips/new.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/app/views/trips/show.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/app/views/trips/show.json.jbuilder" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/bin/bundle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/bin/rails" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/bin/rake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/config.ru" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/config/application.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/config/boot.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/config/database.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/config/environment.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/config/environments/development.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/config/environments/production.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/config/environments/test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/config/initializers/backtrace_silencers.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/config/initializers/filter_parameter_logging.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/config/initializers/inflections.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/config/initializers/mime_types.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/config/initializers/secret_token.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/config/initializers/session_store.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/config/initializers/wrap_parameters.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/config/locales/en.bootstrap.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/config/locales/en.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/config/routes.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/db/migrate/20131019212514_create_trips.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/db/migrate/20131019220925_create_activities.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/db/schema.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/db/seeds.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/lib/assets/.keep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/lib/tasks/.keep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/log/.keep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/public/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/public/422.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/public/500.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/public/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/public/images/banner_1.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/public/images/banner_2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/public/images/banner_3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/public/images/calendar_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/public/images/dollar_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/public/images/logo_2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/public/images/personaliza_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/public/images/viaja_icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/public/robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/test/controllers/.keep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/test/controllers/activities_controller_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/test/controllers/pages_controller_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/test/controllers/trips_controller_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/test/fixtures/.keep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/test/fixtures/activities.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/test/fixtures/trips.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/test/helpers/.keep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/test/helpers/activities_helper_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/test/helpers/pages_helper_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/test/helpers/trips_helper_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/test/integration/.keep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/test/mailers/.keep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/test/models/.keep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/test/models/activity_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/test/models/trip_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/test/test_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/vendor/assets/javascripts/.keep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../tripeo/vendor/assets/stylesheets/.keep" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/com.aptana.index.core/2170541227.index" afterPath="$PROJECT_DIR$/../../../../.metadata/.plugins/com.aptana.index.core/2170541227.index" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/com.aptana.index.core/4119648340.index" afterPath="$PROJECT_DIR$/../../../../.metadata/.plugins/com.aptana.index.core/4119648340.index" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" afterPath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterPath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" afterPath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" afterPath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../../.metadata/.log" afterPath="$PROJECT_DIR$/../../../../.metadata/.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/com.aptana.ruby.ui/dialog_settings.xml" afterPath="$PROJECT_DIR$/../../../../.metadata/.plugins/com.aptana.ruby.ui/dialog_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.runtime/.settings/com.aptana.theme.prefs" afterPath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.runtime/.settings/com.aptana.theme.prefs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" afterPath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" afterPath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" afterPath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" afterPath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.ui.ide/dialog_settings.xml" afterPath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.ui.ide/dialog_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" afterPath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.ui.workbench/workbench.xml" afterPath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.ui.workbench/workbench.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml" afterPath="$PROJECT_DIR$/../../../../.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/project/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="SBT">
+      <state>
+        <projects_view>
+          <tree_state>
+            <PATH>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ExternalProjectsStructure$RootNode" />
+              </PATH_ELEMENT>
+              <PATH_ELEMENT>
+                <option name="myItemId" value="week2ex" />
+                <option name="myItemType" value="com.intellij.openapi.externalSystem.view.ProjectNode" />
+              </PATH_ELEMENT>
+            </PATH>
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="fixedPoint.sc" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala-2.12/fixedPoint.sc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Scala Worksheet" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/scala-2.12/fixedPoint.sc" />
+        <option value="$PROJECT_DIR$/src/main/scala-2.12/rationals.sc" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1" />
+    <option name="y" value="24" />
+    <option name="width" value="1368" />
+    <option name="height" value="721" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="week2ex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="week2ex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="week2ex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="week2ex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="week2ex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="week2ex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="week2ex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala-2.12" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="week2ex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="week2ex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala-2.12" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fixedPoint.sc" />
+              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="week2ex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="week2ex" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Confirmation" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../funsets" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="week2ex" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+      <method />
+    </configuration>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="lastUpdateTimestamp" value="1494001919937" />
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="week2ex" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="week2ex" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="week2ex-build" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$/../../../Scala 1/week 1/recfun1" value="1462390730000" />
+        <entry key="$PROJECT_DIR$" value="1494001323655" />
+      </map>
+    </option>
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="ScalaProjectSettings">
+    <option name="ignorePerformance" value="true" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c73f0c2c-a555-4c2b-8bef-2d99c2387478" name="Default" comment="" />
+      <created>1494001323542</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1494001323542</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1" y="24" width="1368" height="721" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32718122" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23939393" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24924242" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/scala-2.12/rationals.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala-2.12/fixedPoint.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar!/sun/awt/motif/X11GB2312.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-177">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala-2.12/rationals.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="39" column="14" lean-forward="false" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala-2.12/fixedPoint.sc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>week2ex</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>SBT: org.scala-lang:scala-library:2.12.2:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
