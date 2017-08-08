@@ -155,7 +155,7 @@ object Huffman {
    * the resulting list of characters.
    */
     def decode(tree: CodeTree, bits: List[Bit]): List[Char] = tree match{
-      case Leaf(c,lw) => List(c) ::: decode(tree,bits.tail)
+      case Leaf(c,lw) => if (bits.tail.isEmpty) List(c) ::: decode(tree,bits.tail) else List(c) ::: Nil
       case Fork(l,r,cs,fw) => if (bits.head == 0) decode(l,bits.tail) else decode(r,bits.tail)
     }
   
